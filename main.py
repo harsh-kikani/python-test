@@ -1,97 +1,3 @@
-'''import json
-import os
-
-
-print("\n==== Hostpital management system ====")
-print("1. Add Patient")
-print("2. Add Doctor")
-print("3. Schedule Appointment")
-print("4. View Records")
-print("5. Generate Reports")
-print("6. Save")
-print("7. Exit")
-
- 
-
-    
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-class Patient(Person):
-    def __init__(self, name, age, patient_id):
-        super().__init__(name, age)
-        self.patient_id = patient_id
-
-class Doctor(Person):
-    def __init__(self, name, age, specialty, doctor_id):
-        super().__init__(name, age)
-        self.specialty = specialty
-        self.doctor_id = doctor_id
-        
-patients = []
-doctors = []
-appointments = []
-DATA_FILE = "hospital_data.json"
-
-        
-def save_data():
-    with open("data_file.txt", "w") as f:
-         print("Data saved!")
-
-        
-def add_patient():
-    name = input("Enter patient name: ")
-    age = int(input("Enter age: "))
-    pid = input("Enter patient ID: ")
-    print("patient added!")
-    
-
-def add_doctor():
-    name = input("Enter doctor name: ")
-    age = int(input("Enter age: "))
-    specialty = input("Enter specialty: ")
-    did = input("Enter doctor ID: ")
-    print("Doctor added!")
-
-def schedule_appointment():
-    pid = input("Enter patient ID: ")
-    did = input("Enter doctor ID: ")
-    date = input("Enter appointment date (YYYY-MM-DD): ")
-    print("Appointment scheduled!")
-    
-
-def view_records():
-    print("\nPatients:")
-    
-
-def reports():
-    print("\n--- Reports ---")
-    
-
-
-    
-choice = input("enter choice: ")
-
-if choice == "1":
-    add_patient()
-elif choice == "2": 
-    add_doctor()
-elif choice == "3": 
-    schedule_appointment()
-elif choice == "4": 
-    view_records()
-elif choice == "5": 
-    reports()
-elif choice == "6": 
-    save_data()
-elif choice == "7":
-    exit()
-else:
-    print("invalid choice!Try again.")'''
-      
-
 import json
 import os
 
@@ -214,7 +120,98 @@ if __name__ == "__main__":
 
 
     
+'''import json
+import os
 
+
+print("\n==== Hostpital management system ====")
+print("1. Add Patient")
+print("2. Add Doctor")
+print("3. Schedule Appointment")
+print("4. View Records")
+print("5. Generate Reports")
+print("6. Save")
+print("7. Exit")
+
+ 
+
+    
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+class Patient(Person):
+    def __init__(self, name, age, patient_id):
+        super().__init__(name, age)
+        self.patient_id = patient_id
+
+class Doctor(Person):
+    def __init__(self, name, age, specialty, doctor_id):
+        super().__init__(name, age)
+        self.specialty = specialty
+        self.doctor_id = doctor_id
+        
+patients = []
+doctors = []
+appointments = []
+DATA_FILE = "hospital_data.json"
+
+        
+def save_data():
+    with open("data_file.txt", "w") as f:
+         print("Data saved!")
+
+        
+def add_patient():
+    name = input("Enter patient name: ")
+    age = int(input("Enter age: "))
+    pid = input("Enter patient ID: ")
+    print("patient added!")
+    
+
+def add_doctor():
+    name = input("Enter doctor name: ")
+    age = int(input("Enter age: "))
+    specialty = input("Enter specialty: ")
+    did = input("Enter doctor ID: ")
+    print("Doctor added!")
+
+def schedule_appointment():
+    pid = input("Enter patient ID: ")
+    did = input("Enter doctor ID: ")
+    date = input("Enter appointment date (YYYY-MM-DD): ")
+    print("Appointment scheduled!")
+    
+
+def view_records():
+    print("\nPatients:")
+    
+
+def reports():
+    print("\n--- Reports ---")
+    
+
+
+    
+choice = input("enter choice: ")
+
+if choice == "1":
+    add_patient()
+elif choice == "2": 
+    add_doctor()
+elif choice == "3": 
+    schedule_appointment()
+elif choice == "4": 
+    view_records()
+elif choice == "5": 
+    reports()
+elif choice == "6": 
+    save_data()
+elif choice == "7":
+    exit()
+else:
+    print("invalid choice!Try again.")'''
    
 
 

@@ -1,1 +1,1 @@
-{"patients": [], "doctors": [], "appointments": []}
+{"patients": [{"name": "pujan", "age": 20, "patient_id": "2222"}], "doctors": [], "appointments": [{"patient_id": "2222", "doctor_id": "2222", "date": "C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python313\\python.exe c:/Users/harsh/OneDrive/Desktop/HMS/main.py"}]}

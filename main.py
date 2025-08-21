@@ -61,7 +61,7 @@ def add_doctor():
 def schedule_appointment():
     pid = input("Enter patient ID: ")
     did = input("Enter doctor ID: ")
-    date = input("Enter appointment date (YYYY-MM-DD): ")
+    date = input("Enter appointment date (MM-DD-YYYY)): ")
     appointments.append({"patient_id": pid, "doctor_id": did, "date": date})
     print("Appointment scheduled!")
 
